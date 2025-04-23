@@ -4,8 +4,7 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls, Vcl.ExtDlgs,
-  JPEG, PNGImage, EncdDecd, System.NetEncoding ;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls, Vcl.ExtDlgs;
 
 type
   TfrmMain = class(TForm)
@@ -27,6 +26,11 @@ var
   frmMain: TfrmMain;
 
 implementation
+
+uses
+ JPEG,
+ PNGImage,
+ System.NetEncoding;
 
 {$R *.dfm}
 

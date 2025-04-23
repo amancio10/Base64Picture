@@ -10,6 +10,7 @@ object frmMain: TfrmMain
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
+  Position = poScreenCenter
   TextHeight = 15
   object ImgEncode: TImage
     Left = 8
@@ -31,8 +32,8 @@ object frmMain: TfrmMain
     TabOrder = 0
   end
   object btnEncode: TButton
-    Left = 240
-    Top = 24
+    Left = 236
+    Top = 112
     Width = 113
     Height = 25
     Caption = 'Encode Picture'
@@ -40,8 +41,8 @@ object frmMain: TfrmMain
     OnClick = btnEncodeClick
   end
   object btnDecode: TButton
-    Left = 240
-    Top = 55
+    Left = 236
+    Top = 143
     Width = 113
     Height = 25
     Caption = 'Decode Picture'
@@ -49,7 +50,7 @@ object frmMain: TfrmMain
     OnClick = btnDecodeClick
   end
   object OpenDialog: TOpenDialog
-    Left = 272
-    Top = 128
+    Left = 296
+    Top = 344
   end
 end
