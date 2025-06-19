@@ -8,12 +8,13 @@ uses
 
 type
   TfrmMain = class(TForm)
-    ImgEncode: TImage;
-    ImgDecode: TImage;
     Memo: TMemo;
+    OpenDialog: TOpenDialog;
+    Panel: TPanel;
+    ImgEncode: TImage;
     btnEncode: TButton;
     btnDecode: TButton;
-    OpenDialog: TOpenDialog;
+    ImgDecode: TImage;
     procedure btnEncodeClick(Sender: TObject);
     procedure btnDecodeClick(Sender: TObject);
   private
